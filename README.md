@@ -1,4 +1,4 @@
-# Katy Felkner's CV
+# Katy Felkner's Résumé
 
 LaTeX template modified from [Sourabh Bajaj's template](https://github.com/sb2nov/resume)
 
