@@ -1,0 +1,68 @@
+% this file is a general list of all my papers with full BibTeX entries
+@inproceedings{felkner-etal-2023-winoqueer,
+    title = "{W}ino{Q}ueer: A Community-in-the-Loop Benchmark for Anti-{LGBTQ}+ Bias in Large Language Models",
+    author = "Felkner, Virginia K. and
+      Chang, Ho-Chun Herbert  and
+      Jang, Eugene  and
+      May, Jonathan",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.507/",
+    doi = "10.18653/v1/2023.acl-long.507",
+    pages = "9126--9140",
+    abstract = "We present WinoQueer: a benchmark specifically designed to measure whether large language models (LLMs) encode biases that are harmful to the LGBTQ+ community. The benchmark is community-sourced, via application of a novel method that generates a bias benchmark from a community survey. We apply our benchmark to several popular LLMs and find that off-the-shelf models generally do exhibit considerable anti-queer bias. Finally, we show that LLM bias against a marginalized community can be somewhat mitigated by finetuning on data written about or by members of that community, and that social media text written by community members is more effective than news text written about the community by non-members. Our method for community-in-the-loop benchmark development provides a blueprint for future researchers to develop community-driven, harms-grounded LLM benchmarks for other marginalized communities."
+}
+
+@inproceedings{felkner-etal-2024-gpt,
+    title = "{GPT} is Not an Annotator: The Necessity of Human Annotation in Fairness Benchmark Construction",
+    author = "Felkner, Virginia K. and
+      Thompson, Jennifer  and
+      May, Jonathan",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.760/",
+    doi = "10.18653/v1/2024.acl-long.760",
+    pages = "14104--14115",
+    abstract = "Social biases in LLMs are usually measured via bias benchmark datasets. Current benchmarks have limitations in scope, grounding, quality, and human effort required. Previous work has shown success with a community-sourced, rather than crowd-sourced, approach to benchmark development. However, this work still required considerable effort from annotators with relevant lived experience. This paper explores whether an LLM (specifically, GPT-3.5-Turbo) can assist with the task of developing a bias benchmark dataset from responses to an open-ended community survey. We also extend the previous work to a new community and set of biases: the Jewish community and antisemitism. Our analysis shows that GPT-3.5-Turbo has poor performance on this annotation task and produces unacceptable quality issues in its output. Thus, we conclude that GPT-3.5-Turbo is not an appropriate substitute for human annotation in sensitive tasks related to social biases, and that its use actually negates many of the benefits of community-sourcing bias benchmarks."
+}
+
+@misc{felkner2022winoqueerdevelopingbenchmarkantiqueer,
+      title={Towards WinoQueer: Developing a Benchmark for Anti-Queer Bias in Large Language Models}, 
+      author={Virginia K. Felkner and Ho-Chun Herbert Chang and Eugene Jang and Jonathan May},
+      year={2022},
+      eprint={2206.11484},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2206.11484}, 
+}
+
+
+@inproceedings{10.1145/3465413.3488575,
+author = {Weideman, Nicolaas and Felkner, Virginia K. and Wu, Wei-Cheng and May, Jonathan and Hauser, Christophe and Garcia, Luis},
+title = {PERFUME: Programmatic Extraction and Refinement for Usability of Mathematical Expression},
+year = {2021},
+isbn = {9781450385527},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3465413.3488575},
+doi = {10.1145/3465413.3488575},
+abstract = {Algorithmic identification is the crux for several binary analysis applications, including malware analysis, vulnerability discovery, and embedded firmware reverse engineering. However, data-driven and signature-based approaches often break down when encountering outlier realizations of a particular algorithm. Moreover, reverse engineering of domain-specific binaries often requires collaborative analysis between reverse engineers and domain experts. Communicating the behavior of an unidentified binary program to non-reverse engineers necessitates the recovery of algorithmic semantics in a human-digestible form. This paper presents PERFUME, a framework that extracts symbolic math expressions from low-level binary representations of an algorithm. PERFUME works by translating a symbolic output representation of a binary function to a high-level mathematical expression. In particular, we detail how source and target representations are generated for training a machine translation model. We integrate PERFUME as a plug-in for Ghidra--an open-source reverse engineering framework. We present our preliminary findings for domain-specific use cases and formalize open challenges in mathematical expression extraction from algorithmic implementations.},
+booktitle = {Proceedings of the 2021 Research on Offensive and Defensive Techniques in the Context of Man At The End (MATE) Attacks},
+pages = {59–69},
+numpages = {11},
+keywords = {binary analysis, reverse engineering},
+location = {Virtual Event, Republic of Korea},
+series = {Checkmate '21}
+}
